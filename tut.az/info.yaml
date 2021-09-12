@@ -1,0 +1,25 @@
+Парсим :
+  https://tut.az/dasinmaz-emlak/ev-alqi-satqisi/
+Нужна следующая информация.
+Парсим 1-7 страниц
+Что парсим
+Ünvan: 
+Elanın növü: 
+Binanın növü: 
+Rayon: 
+Qəsəbə:
+Elanı yerləşdirən: 
+Mərtəbə sayı: 
+Mərtəbə:
+Otaqların sayı: 
+Sənəd:
+Metro:
+Sahə:
+Təmir:
+Şəhər:
+Elanın tarixi:
+Link:
+
+Логика такова.
+Заходим по ссылке далее по каждому обьявлению и от туда берем нужную инфо.
+Записываем в csf файл и открываем.

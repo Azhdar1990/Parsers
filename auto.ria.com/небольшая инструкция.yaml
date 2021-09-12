@@ -1,0 +1,101 @@
+Для начала надо установить питон и нужные библиотеки (requests, beautifulsoup)
+requests      
+https://pypi.org/project/requests/
+  pip install requests
+beautifulsoup https://pypi.org/project/beautifulsoup4/
+  pip install beautifulsoup4
+
+Далее импортируем данные библиотеки в наш скрипт
+  import requests
+  from bs4 import BeautifulSoup
+
+Мы будет парсить сайт продажи автомобилей.
+Тип марки Jeep
+
+Создадим в нашем скрипте переменную которая будет хранить URL данного сайта
+  URL = 'https://auto.ria.com/newauto/marka-jaguar/'
+
+Создадим переменную заголовков 'HEADERS' 
+Данную переменную будем добавлять при парсинге сайта что бы сайт думал что 
+действия идут с браузера а не со скрипта и не блочил нас.
+Для этого откроем браузер, сайт, нажмен "Исследовать код" в браузере 
+далее раздел "сеть" выбираем 1 -ый аддресс
+обновляем страницу и справа выбираем раздел заголовки.
+Используем заголовки
+user-agent   - типо все мы делаем через браузер мозила из винды
+accept       - укажем что может принемать все значения и (текст,фотки,скрипты и тд) то есть какой контент разрешать.
+  HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0', 'accept': '*/*'}
+
+Создадим функции:
+def get_html(url, params=None):
+    r = requests.get(url, headers=HEADERS, params=params)
+    return r
+
+Вышесозданная функция будет иметь 2 аргумента.
+url - страницы с которой необходимо получить контент.
+params - опциональные параметры которые передадим данной странице
+ например перейдя на аддресс https://auto.ria.com/newauto/marka-jaguar/ то сдесь может быть страниц больше чем 1 и например
+ переключив на 2-ую страницу то в браузере будет написанно "https://auto.ria.com/newauto/marka-jaguar/?page=2&markaId=31"
+ добавился дополнительный параметр ?page=2
+далее в функции создаем переменную и используя библиотеку requests.get (get запрос) 
+1-ым мы отправляем указанный в аргументе функции url
+2-ым отправим заголовки headers
+3-им отправим параметры params
+И вернем значение переменной r
+То есть обьект будет возврашен и потом будем использовать в функции parse
+То есть в функции parse мы создадим переменную html которая будет вызывать данную функцию с параметром URL 
+а это наша переменная которую мы указали выше.
+То есть грубо данная функция будет подключатья к сайту и получать значение (например статус 200 если доступен)
+Для проверки можно временно настроить функцию parse
+def parse():
+    html = get_html(URL)
+    print(html.status_code)
+parse()
+Функция должна распечатать на дисплей нам статус код страницы (200 или нет)
+
+def get_content(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    items = soup.find_all('a', class_='na-card-item')
+
+    cars = []
+    for item in items:
+        uah_price = item.find('span', class_='size15')
+        if uah_price:
+            uah_price = uah_price.get_text().replace(' • ', '')
+        else:
+            uah_price = 'Цену уточняйте'
+        cars.append({
+            'title': item.find('div', class_='na-card-name').get_text(strip=True),
+            'link': HOST + item.find('span', class_='link').get('href'),
+            'usd_price': item.find('strong', class_='green').get_text(),
+            'uah_price': uah_price,
+            'city': item.find('svg', class_='svg_i16_pin').find_next('span').get_text(),
+        })
+    return cars
+
+Данная функция будет принимать аргумет (назовем его html) и с ним он будет работать.
+Для того что бы парсить нужно создать обьект(переменную) soup и присвоить ему библиотеку.
+библиотеки дадим аргументы
+html          аргумент get_content - а 
+html.parser   тип документа с котрой мы работаем (биаутифул суп может работать не только с html но и с другими)
+
+
+def parse():
+    html = get_html(URL)
+    if html.status_code == 200:
+        cars = get_content(html.text)
+    else:
+        print('Error')
+
+Вышесозданная функция - онсновная.
+В ней будут вызываться все прочие функции
+Создадим переменную html со значением функции get_html которая будет иметь параметр переменной URL
+html = get_html(URL) 
+выглядет это так
+html = get_html('https://auto.ria.com/newauto/marka-jaguar/', headers=HEADERS, params=params)
+Данная переменная будет обращаться к функции get_html и подставлять значение переменной URL
+Далее пишем что если мы достучадись до старници и получили status.code = 200 тогда быдем запускать наш парсер 
+или распечатаем какой то текст об ошибке
+
+Выводим значение последней функции:
+parse()
