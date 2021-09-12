@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b562ac47-d98f-4652-89f7-be00264e1579" name="Changes" comment="parser 1&#10;Парсит только страницы.&#10;Не может заходить в каждое обьявление и собирать от&#10;туда инфо." />
+    <list default="true" id="b562ac47-d98f-4652-89f7-be00264e1579" name="Changes" comment="parser 1&#10;Парсит только страницы.&#10;Не может заходить в каждое обьявление и собирать от&#10;туда инфо.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/auto.ria.com.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.ria.com/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +34,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.tutaz01">
     <configuration name="parser02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -51,17 +60,17 @@
       <method v="2" />
     </configuration>
     <configuration name="tutaz01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parsers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Environment\5_TUTORIALS\Python\Parser\ENV\Scripts\python.exe" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tut.az" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tut.az/tutaz01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
