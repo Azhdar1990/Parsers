@@ -1,25 +1,35 @@
+Задание 1
 Парсим :
   https://tut.az/dasinmaz-emlak/ev-alqi-satqisi/
 Нужна следующая информация.
 Парсим 1-7 страниц
 Что парсим
-Ünvan: 
-Elanın növü: 
-Binanın növü: 
-Rayon: 
-Qəsəbə:
-Elanı yerləşdirən: 
-Mərtəbə sayı: 
-Mərtəbə:
-Otaqların sayı: 
-Sənəd:
-Metro:
-Sahə:
-Təmir:
-Şəhər:
-Elanın tarixi:
+Menzil:
+Elanin Tarixi:
+Giymet:
 Link:
 
 Логика такова.
-Заходим по ссылке далее по каждому обьявлению и от туда берем нужную инфо.
+Заходим по ссылке и от туда берем нужную инфо.
+Записываем в csf файл и открываем.
+
+Здание 2
+Парсим :
+  https://tut.az/dasinmaz-emlak/ev-alqi-satqisi/
+Парсим 1-7 страниц
+Что парсим
+Ünvan:
+Elanın növü:
+Binanın növü:
+Rayon:
+Qəsəbə:
+Elanı yerləşdirən:
+Mərtəbə sayı:
+Mərtəbə:
+Otaqların sayı:
+Sənəd:
+Link:
+
+Логика такова.
+Заходим по ссылке и далее заходим по каждому обьявлению и от туда берем нужную инфо.
 Записываем в csf файл и открываем.
