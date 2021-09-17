@@ -36,6 +36,9 @@ def get_content(html):
        })
    print(emlak)
 
+
+
+
 def parse():
     html = get_html(URL)
     if html.status_code == 200:
