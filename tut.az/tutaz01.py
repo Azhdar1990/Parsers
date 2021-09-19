@@ -43,9 +43,9 @@ def get_content(html):
            'Link': item.find_next('a').get('href'),
        })
    # Проверяем работу функции get_content на начальном этапе
-   # print (emlak)
+   print (emlak)
 
-   return emlak
+#   return emlak
 
 def save_file(items, path):
     with open(path, 'w', newline='', encoding='utf-8-sig') as file:

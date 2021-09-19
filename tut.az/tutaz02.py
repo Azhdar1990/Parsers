@@ -21,18 +21,18 @@ def get_content(html):
    emlak = []
    for item in items:
        emlak.append({
-           'Ünvan:': item.find('span', text='Ünvan:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Elanın növü:': item.find('span', text='Elanın növü:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Binanın növü:': item.find('span', text='Binanın növü:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Rayon:': item.find('span', text='Rayon:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Ünvan:': item.find('span', text='Ünvan:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Elanın növü:': item.find('span', text='Elanın növü:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Binanın növü:': item.find('span', text='Binanın növü:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Rayon:': item.find('span', text='Rayon:').find_next(class_='second_part').get_text().replace('\xa0', ''),
            'Qəsəbə': item.find('span', text='Qəsəbə:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Elanı yerləşdirən:': item.find('span', text='Elanı yerləşdirən:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Mərtəbə sayı:': item.find('span', text='Mərtəbə sayı:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Mərtəbə:': item.find('span', text='Mərtəbə:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Otaqların sayı:': item.find('span', text='Otaqların sayı:').find_next(class_='second_part').get_text().replace('\xa0', ''),
-           'Sənəd:': item.find('span', text=' Sənəd:').find_next(class_='second_part').get_text().replace('\n', ''),
-           'Giymət': item.find('div', class_='price xxl').get_text().replace('\n', ''),
-           'Elanın tarixi': item.find('div', class_='flex _flexPart3').find_next(class_='flex').next_element.next_element.next_element.next_element.next_element.next_element.next_element.next_element.get_text(),
+           # 'Elanı yerləşdirən:': item.find('span', text='Elanı yerləşdirən:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Mərtəbə sayı:': item.find('span', text='Mərtəbə sayı:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Mərtəbə:': item.find('span', text='Mərtəbə:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Otaqların sayı:': item.find('span', text='Otaqların sayı:').find_next(class_='second_part').get_text().replace('\xa0', ''),
+           # 'Sənəd:': item.find('span', text=' Sənəd:').find_next(class_='second_part').get_text().replace('\n', ''),
+           # 'Giymət': item.find('div', class_='price xxl').get_text().replace('\n', ''),
+           # 'Elanın tarixi': item.find('div', class_='flex _flexPart3').find_next(class_='flex').next_element.next_element.next_element.next_element.next_element.next_element.next_element.next_element.get_text(),
        })
    print(emlak)
 
