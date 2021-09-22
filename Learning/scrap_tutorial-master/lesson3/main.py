@@ -20,7 +20,7 @@ def get_data(url):
     iteration_count = 23
     print(f"Всего итераций: #{iteration_count}")
 
-    for item in range(1, 24):
+    for item in range(1, 24):for item in range(1, 24):
         req = requests.get(url + f"&PAGEN_1={item}&PAGEN_2={item}", headers)
 
         folder_name = f"data/data_{item}"

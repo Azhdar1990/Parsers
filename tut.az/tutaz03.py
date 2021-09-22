@@ -96,7 +96,7 @@ def get_content(html):
              count += 1
              rows = zip(['Unvan'],['Elanın növü'],['Binanın növü'], ['Qəsəbə:'], ['Rayon:'], ['Elanı yerləşdirən:'], ['Mərtəbə sayı:'], ['Mərtəbə:'], ['Otaqların sayı:'], ['Sənəd:'], ['Giymət:'], ['LINK:'])
              with open('result/result.csv', 'w', newline='', encoding='utf-8-sig') as file:
-                 writer = csv.writer(file)
+                 writer = csv.writer(file, delimiter=';')
                  for row in rows:
                      writer.writerow(row)
                  for item in emlak:
