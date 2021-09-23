@@ -24,6 +24,7 @@ headers = {
 #     file.write(src)
 
 # with open("index.html") as file:
+# with open("index.html") as file:
 #     src = file.read()
 #
 # soup = BeautifulSoup(src, "lxml")
