@@ -8,9 +8,9 @@ import csv
 import shutil
 
 page = 'https://www.compusale.az'
-#URL = 'https://www.compusale.az/index.php?route=product/category&path=85_86_189'
+#URL = 'https://www.compusale.az/index.php?route=product/category&path=103_157'
 
-print('Здравствуйте.\nДанная программа парсит нужную вам категорию из раздела устройства/прдукция с сайта "compusale.az".\nСобирается следующая информация:\nмодель, цена без НДС, цена с НДС, наличие, ссыла.\nДалее всё сохраняется в exel и открывается сохраненный файл.\nДля начала работы программы вам нужно будет ввести ссылку категории.\nНапример:\nВы зашли в катигорию устойства маршрутизаторы модель unifi.\nhttps://www.compusale.az/index.php?route=product/category&path=85_86_189\nСкопируйте ссылку с браузера и вставьте в программу.')
+#print('Здравствуйте.\nДанная программа парсит нужную вам категорию с сайта "compusale.az".\nСобирается следующая информация:\nмодель, цена без НДС, цена с НДС, наличие, ссылка.\nДалее всё сохраняется в exel и открывается сохраненный файл.\nДля начала работы программы вам нужно будет ввести ссылку категории.\nНапример:\nВы зашли в катигорию устойства маршрутизаторы модель unifi.\nhttps://www.compusale.az/index.php?route=product/category&path=85_86_189\nСкопируйте ссылку с браузера и вставьте в программу.')
 # Запрашиваем у пользователя ссылку с сайта
 URL = input('Введите ссылку с сайта которую будем парсить: ')
 
@@ -75,8 +75,9 @@ def get_data(url):
         req = requests.get(url + f"&page={page}", headers)
         src = req.text
         soup = BeautifulSoup(src, 'lxml')
-        page_exsist = soup.find('div', class_='main-products-wrapper').find('p')
-        if page_exsist:
+        page_exsist = soup.find('div', class_='products-filter')
+#        print(page_exsist)
+        if page_exsist == None:
             print('UPS!! Больше нет данных.')
             print('Всего найдено '+ str(page - 1) + ' cтраниц по указанной ссылке')
             break
@@ -115,11 +116,19 @@ def get_data(url):
     models = {}
     switch_urls = soup.find_all('div', class_='product-thumb')
     for link in switch_urls:
-        links = link.find('a', class_='product-img has-second-image').get('href'.strip())
-        model = link.find('div', class_='name').find('a').get_text()
+        try:
+            links = link.find('div', class_='image').find_next('a', class_='product-img').get('href')
+        except Exception:
+            continue
+#        links = link.find('div', class_='image').find_next(class_='product-img has-second-image')
+        try:
+            model = link.find('div', class_='name').find('a').get_text()
+        except Exception:
+            continue
+#        model = link.find('div', class_='name').find('a').get_text()
         switches_urls[model] = links
 #    print(len(switches_urls.keys()))
-#        print(switches_urls)
+#        print(model)
 ###
 # Далее надо пройтись по каждой ссылке и собрать нужную нам инфо for model, links in switches_urls.items():
 # Сначало методом get будем пробигаться по ссылкам.
@@ -144,17 +153,23 @@ def get_data(url):
     for model, links in switches_urls.items():
         currentLink += 1
         print('Парсинг модели №: ' + str(currentLink) + ' из ' + str(len(switches_urls.keys())))
+
 #        print(model + links)
 
         req = requests.get(links, headers)
-        with open(f'resources/links/{model}.html', 'w', encoding='utf-8-sig') as file:
-            file.write(req.text)
+        try:
+            with open(f'resources/links/{model}.html', 'w', encoding='utf-8-sig') as file:
+                file.write(req.text)
+        except Exception:
+            print('Не получилось собрать инфо о модели № ' + str( currentLink ) + str( model ))
+            continue
+
 #        print (req.text)
 #        print ('взята ссылка модели: ' + model)
 ###
 #  Далее считываем данные в переменную
 #  Открываем каждую сораненную ранее страницу.
-        with open (f'resources/links/{model}.html') as file:
+        with open (f'resources/links/{model}.html', encoding='utf-8-sig') as file:
             src = file.read()
 #            print(src)
 ###
@@ -206,11 +221,13 @@ def get_data(url):
                  writer.writerow(row)
              for item in data_list:
                  writer.writerow([item['Model'], item['Price with NDS'], item['Price without NDS'], item['Stok'], item['LINK']])
+def open_file():
     print('Парсинг завершен')
     #
     os.startfile(r'final.csv')
+    time.sleep(4)
 
-#
+
 ###
 # Нужно удалить временные папки.
 def del_folders():
@@ -229,3 +246,4 @@ check_page(page)
 check_folder()
 get_data(URL)
 del_folders()
+open_file()
