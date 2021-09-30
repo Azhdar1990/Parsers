@@ -115,6 +115,7 @@ def get_data(url):
     switches_urls = {}
     models = {}
     switch_urls = soup.find_all('div', class_='product-thumb')
+    rep = [";", " ", "-", "'", "/", "|", ".", "]", "[", "{", "}", "#", "@", "!", "%"]
     for link in switch_urls:
         try:
             links = link.find('div', class_='image').find_next('a', class_='product-img').get('href')
@@ -123,10 +124,14 @@ def get_data(url):
 #        links = link.find('div', class_='image').find_next(class_='product-img has-second-image')
         try:
             model = link.find('div', class_='name').find('a').get_text()
+            for item in rep:
+                if item in model:
+                    model = model.replace(item, "_")
         except Exception:
             continue
 #        model = link.find('div', class_='name').find('a').get_text()
         switches_urls[model] = links
+
 #    print(len(switches_urls.keys()))
 #        print(model)
 ###
@@ -176,9 +181,10 @@ def get_data(url):
 # Создаем обьект супа который будет парсить данные из переменной src
 # Начинаем собирать нужные данные
         soup = BeautifulSoup(src, 'lxml')
-        model = soup.find('ul', class_='list-unstyled').find_next('li', class_='product-model').find('span').get_text()
-        price_NDS = soup.find('div', class_='product-price').get_text()
-        price_NO_NDS = soup.find('div', class_='product-tax').get_text()
+#         model = soup.find('ul', class_='list-unstyled').find_next('li', class_='product-model').find('span').get_text()
+        price_NDS = soup.find('div', class_='product-price').get_text().replace(",", ".")
+        price_NO_NDS = soup.find('div', class_='product-tax').get_text().replace(",", ".")
+#        print (price_NDS)
 # Ниже я указал 2 варианта парсинга с условиями для переменной stok.
 # Если есть то присвоить переменной.
 # Если нет то вывести сообщение 'No INdofration'
