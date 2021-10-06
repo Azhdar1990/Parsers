@@ -1,0 +1,15 @@
+Нужно:
+  Заходить на сайт parkcinema.az
+  Проходиться по каждому фильму в разделе "Bu Gün"
+
+Инфо следующая:
+  Filmin_Adı  Cinema  Zallar  Seanslar  Boş_Yerlər_Sayı   Tutulan_Yerlər_Sayı    Link
+
+Пример:
+Filmin_Adı  Cinema      Zallar  Seanslar  Boş_Yerlər_Sayı   Tutulan_Yerlər_Sayı    Link
+Venom2      Flame       Lazer   19:20         9                 40
+                        Zal4    22:20         10                30
+            ParkBulvar  Zal6    00:20         12                40
+SpiderMan   Metropark           00:30         0                 80
+
+Сохранять в csv файл:
