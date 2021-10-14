@@ -1,0 +1,40 @@
+1634192187791	geckodriver	INFO	Listening on 127.0.0.1:1042
+1634192190891	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilegIq8e3"
+1634192191283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilegIq8e3\\search.json.mozlz4", (void 0)))
+1634192193243	Marionette	INFO	Listening on port 2524
+1634192207177	Marionette	INFO	Stopped listening on port 2524
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634192208790	geckodriver	INFO	Listening on 127.0.0.1:1173
+1634192211864	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileEMgk6G"
+1634192212257	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileEMgk6G\\search.json.mozlz4", (void 0)))
+1634192214198	Marionette	INFO	Listening on port 1235
+1634192214625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634192214627	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"190.210.211.70:8080","sslProxy":"190.210.211.70:8080"}
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QjHKgOpm15qTJXWLxUnNMS8wTt6682k-qtw68OFTrDs.js line 1 > eval line 7424 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/m_71LU70zG8G78x6hYSYf2B3ELc7BGRgbsZokPhgXAY.js line 1 > eval line 1864 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634192274335	Marionette	INFO	Stopped listening on port 1235
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
