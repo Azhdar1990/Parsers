@@ -1,0 +1,91 @@
+1634296812118	geckodriver	INFO	Listening on 127.0.0.1:1112
+1634296815204	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewyDVpk"
+*** You are running in headless mode.
+1634296815607	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewyDVpk\\search.json.mozlz4", (void 0)))
+1634296816686	Marionette	INFO	Listening on port 1121
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634296816858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 6552, MediaDecoderStateMachine #1] WARNING: Decoder=5660f60 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 6552, MediaDecoderStateMachine #1] WARNING: Decoder=5660f60 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+1634296827780	Marionette	INFO	Stopped listening on port 1121
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634296874944	geckodriver	INFO	Listening on 127.0.0.1:1388
+1634296878041	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile7vffSw"
+*** You are running in headless mode.
+1634296878436	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile7vffSw\\search.json.mozlz4", (void 0)))
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634296879527	Marionette	INFO	Listening on port 1396
+1634296879689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 1404, MediaDecoderStateMachine #1] WARNING: Decoder=5960f60 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 1404, MediaDecoderStateMachine #1] WARNING: Decoder=5960f60 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+1634296892074	Marionette	INFO	Stopped listening on port 1396
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634296924993	geckodriver	INFO	Listening on 127.0.0.1:1552
+1634296928055	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileOFa4oO"
+1634296928467	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileOFa4oO\\search.json.mozlz4", (void 0)))
+1634296930342	Marionette	INFO	Listening on port 1562
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634296930866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 5300, MediaDecoderStateMachine #1] WARNING: Decoder=e60f60 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 5300, MediaDecoderStateMachine #1] WARNING: Decoder=e60f60 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+1634296943100	Marionette	INFO	Stopped listening on port 1562
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634296959398	geckodriver	INFO	Listening on 127.0.0.1:1700
+1634296962500	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileTT19Ju"
+1634296962893	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileTT19Ju\\search.json.mozlz4", (void 0)))
+1634296964932	Marionette	INFO	Listening on port 1708
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634296965260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=5861130 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=5861130 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=21967&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634296989123	Marionette	INFO	Stopped listening on port 1708
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634296997859	geckodriver	INFO	Listening on 127.0.0.1:1865
+1634297000957	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexneGuk"
+*** You are running in headless mode.
+1634297001342	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexneGuk\\search.json.mozlz4", (void 0)))
+1634297002396	Marionette	INFO	Listening on port 1873
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634297002594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 3080, MediaDecoderStateMachine #1] WARNING: Decoder=5861130 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 3080, MediaDecoderStateMachine #1] WARNING: Decoder=5861130 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=52517&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634297027321	Marionette	INFO	Stopped listening on port 1873
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

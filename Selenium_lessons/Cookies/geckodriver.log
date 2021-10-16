@@ -1,0 +1,216 @@
+1634279376364	geckodriver	INFO	Listening on 127.0.0.1:1061
+1634279379436	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileFItYJe"
+1634279379856	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileFItYJe\\search.json.mozlz4", (void 0)))
+1634279381832	Marionette	INFO	Listening on port 11711
+1634279382220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634279387244	Marionette	INFO	Stopped listening on port 11711
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634279431619	geckodriver	INFO	Listening on 127.0.0.1:1056
+1634279434699	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile0dcmg4"
+1634279435090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile0dcmg4\\search.json.mozlz4", (void 0)))
+1634279436956	Marionette	INFO	Listening on port 7085
+1634279436996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634279441681	Marionette	INFO	Stopped listening on port 7085
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634279453080	geckodriver	INFO	Listening on 127.0.0.1:15796
+1634279456128	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXRnyEG"
+1634279456513	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXRnyEG\\search.json.mozlz4", (void 0)))
+1634279458283	Marionette	FATAL	Remote protocol server failed to start: Error: Could not bind to port 1080 (NS_ERROR_CONNECTION_REFUSED)(chrome://remote/content/marionette/server.js:84:17) JS Stack trace: set acceptConnections@server.js:84:17
+start@server.js:114:5
+init/<@Marionette.jsm:282:21
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1634279467376	geckodriver	INFO	Listening on 127.0.0.1:1068
+1634279470479	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilemHNlEK"
+1634279470878	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilemHNlEK\\search.json.mozlz4", (void 0)))
+1634279472898	Marionette	INFO	Listening on port 6191
+1634279473253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634279480118	Marionette	INFO	Stopped listening on port 6191
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634279497180	geckodriver	INFO	Listening on 127.0.0.1:19594
+1634279500285	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileITeN2Y"
+1634279500670	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileITeN2Y\\search.json.mozlz4", (void 0)))
+1634279502692	Marionette	INFO	Listening on port 1061
+1634279503062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=30074&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634279516325	Marionette	INFO	Stopped listening on port 1061
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634282507754	geckodriver	INFO	Listening on 127.0.0.1:1175
+1634282510802	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilezXu4X7"
+1634282511191	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilezXu4X7\\search.json.mozlz4", (void 0)))
+1634282513027	Marionette	INFO	Listening on port 1183
+1634282513083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634282520377	Marionette	INFO	Stopped listening on port 1183
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: e is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1634282655720	geckodriver	INFO	Listening on 127.0.0.1:1347
+1634282658817	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileMf6Xzn"
+1634282659200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileMf6Xzn\\search.json.mozlz4", (void 0)))
+1634282661164	Marionette	INFO	Listening on port 1355
+1634282661598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634282668083	Marionette	INFO	Stopped listening on port 1355
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 1852, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: e is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1634282678073	geckodriver	INFO	Listening on 127.0.0.1:1444
+1634282681152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile8oLIt4"
+1634282681560	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile8oLIt4\\search.json.mozlz4", (void 0)))
+1634282683391	Marionette	INFO	Listening on port 1453
+1634282683432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634282691226	Marionette	INFO	Stopped listening on port 1453
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: e is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-8.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1634282707857	geckodriver	INFO	Listening on 127.0.0.1:1621
+1634282710949	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileHJXHHB"
+1634282711332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileHJXHHB\\search.json.mozlz4", (void 0)))
+1634282713125	Marionette	INFO	Listening on port 1629
+1634282713196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634282722394	Marionette	INFO	Stopped listening on port 1629
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: e is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st1-84.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634282730270	geckodriver	INFO	Listening on 127.0.0.1:1721
+1634282733354	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletIwAk9"
+1634282733742	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletIwAk9\\search.json.mozlz4", (void 0)))
+1634282735690	Marionette	INFO	Listening on port 1729
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634282736136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=48662&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634282756598	Marionette	INFO	Stopped listening on port 1729
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634282780437	geckodriver	INFO	Listening on 127.0.0.1:1862
+1634282783538	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejHr2Ku"
+1634282783922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejHr2Ku\\search.json.mozlz4", (void 0)))
+1634282785742	Marionette	INFO	Listening on port 1870
+1634282785818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=20399&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634282810380	Marionette	INFO	Stopped listening on port 1870
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634282837016	geckodriver	INFO	Listening on 127.0.0.1:2075
+1634282840092	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevEXqJb"
+1634282840492	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevEXqJb\\search.json.mozlz4", (void 0)))
+1634282842296	Marionette	INFO	Listening on port 2083
+1634282842341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://st7-6.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: r is null
+JavaScript error: https://st7-6.vk.com/dist/common.7632bf5d908cc4ae3671.js?29bb7052da2bcc1ce092, line 2: TypeError: e is null
+1634282851936	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1634282858397	Marionette	INFO	Stopped listening on port 2083
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
