@@ -89,3 +89,63 @@ JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e
 JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=52517&al=-1&al_id=122840129, line 12: TypeError: parent is null
 1634297027321	Marionette	INFO	Stopped listening on port 1873
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634387939780	geckodriver	INFO	Listening on 127.0.0.1:3828
+1634387942857	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileT4S9NB"
+*** You are running in headless mode.
+1634387943253	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileT4S9NB\\search.json.mozlz4", (void 0)))
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634387944476	Marionette	INFO	Listening on port 3836
+1634387944518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1-95.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=97989&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634387951080	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 12572, MediaDecoderStateMachine #1] WARNING: Decoder=5160d90 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 12572, MediaDecoderStateMachine #1] WARNING: Decoder=5160d90 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+1634387951302	Marionette	INFO	Stopped listening on port 3836
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634387996261	geckodriver	INFO	Listening on 127.0.0.1:27819
+1634387999347	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileQo6dr0"
+*** You are running in headless mode.
+1634387999737	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileQo6dr0\\search.json.mozlz4", (void 0)))
+1634388000824	Marionette	INFO	Listening on port 27827
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
+1634388001002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st7-6.vk.com/dist/web/grip.8787375d797901d85087.js?e065ffe36e62ac03810989eb6242fd05, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634388007141	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 15976, MediaDecoderStateMachine #1] WARNING: Decoder=5860d90 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 15976, MediaDecoderStateMachine #1] WARNING: Decoder=5860d90 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript error: https://vk.com/al_friends.php?__query=friends&_ref=left_nav&_rndVer=49084&al=-1&al_id=122840129, line 12: TypeError: parent is null
+1634388007394	Marionette	INFO	Stopped listening on port 27827
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -1,0 +1,33 @@
+***Команды на сервере***
+Очистить окно терминала: clear
+Перемещение по директориям: cd dirname
+Список файлов в директории: ls
+Создать директорию: mkdir dirname
+Установка sudo: apt install sudo
+Обновление пакетов: sudo apt update && sudo apt upgrade
+Установка виртуального окружения: sudo apt install python3-venv
+Создание виртуального окружения: python3 -m venv venvName
+Запуск виртуального окружения: source venvName/bin/activate
+Обновление pip пакетов: pip install -U package_name
+
+Установка необходимых для корректной работы google-chroma пакетов:
+sudo apt install -y libxss1 libappindicator1 libindicator7
+
+Скачать google-chrome:
+sudo wget https://dl.google.com/linux/direct/go...
+
+Установка:
+sudo dpkg -i google-chrome*.deb
+
+Фиксим/подтягиваем зависимости:
+sudo apt install -y -f
+
+Проверить версию:
+google-chrome --version
+
+Установка screen: sudo apt install screen
+Создаст новый screen: screen
+Свернуть screen: CRTL + A, после чего нажмаем D
+Что-бы посмотреть список запущенных screen: screen -ls
+Что-бы вернуться к свёрнутому screen: screen -r
+Что-бы завершить сессию/закрыть screen: exit

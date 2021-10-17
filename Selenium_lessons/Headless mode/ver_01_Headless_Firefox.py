@@ -20,6 +20,7 @@ options.set_preference(f"general.useragent.override", random.choice(nash_spisok_
 # disable webdriver mode
 options.set_preference("dom.webdriver.enabled", False)
 
+#Делаем так что бы браузер не открывался
 options.headless = True
 
 def user_agent_usage(url):
@@ -32,7 +33,7 @@ def user_agent_usage(url):
         # Вызываем метод get и отправляем наш браузер на страницу
         # Поставим задержку что бы страница успела прогрузиться time.sleep(3)
         driver.get(url=url)
-        time.sleep(1)
+        driver.implicitly_wait(10)
         # создадим переменную email_input
         # запросим метод find_element_by_id и найдем id index_email
         # index_email - указан в поле ввода email
@@ -60,18 +61,18 @@ def user_agent_usage(url):
         # затем обьекту Keys говорим нажать ENTER
         # У данной библиотеки много других имитаций помимо ENTER
         pass_input.send_keys(Keys.ENTER)
-        time.sleep(9)
+        driver.implicitly_wait(10)
         # Далее для наглядности откроем вкладку Друзья в открывшимся окне
         # найдем id l_fr эта кнопка "Друзья" и кликнем на нее
         #login_button = driver.find_element_by_class_name("fl_r").click() # закроем вкладку предупреждения
-        time.sleep(1)
+        driver.implicitly_wait(3)
         login_button = driver.find_element_by_id("l_fr").click()
-        time.sleep(5)
+        driver.implicitly_wait(3)
         # # Далее вызовим библиотеку pickle с методом dump где аргумент будет driver
         # # c методом get_cookies а второй аргумент открываем файл на запись в двоичном коде.
         # # сохранять будем под названием логина данный файл.
         pickle.dump(driver.get_cookies(), open(f"{login}_cookies_fox", "wb"))
-        time.sleep(5)
+        driver.implicitly_wait(5)
 
         # # Перед использованием куки, закомментируйте код аутентификации
         # # В цикле for используя метод load загружаем файл с куки в двоичном формате.
