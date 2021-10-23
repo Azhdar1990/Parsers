@@ -1,0 +1,22 @@
+***Команды на сервере***
+
+
+Перемещение по директориям: cd /home/
+Список файлов в директории: ls
+Создать директорию: mkdir my_bots
+
+Установка screen: sudo apt install screen
+Создаст новый screen: screen
+Свернуть screen: CRTL + A, после чего нажмаем D
+Что-бы посмотреть список запущенных screen: screen -ls
+Что-бы вернуться к свёрнутому screen: screen -r
+Что-бы завершить сессию/закрыть screen: exit
+
+#Установка sudo: apt install sudo
+Обновление пакетов: sudo apt update && sudo apt upgrade
+Установка виртуального окружения: sudo apt install python3-venv
+Создание виртуального окружения: python3 -m venv venvAzhdar_BTC
+Запуск виртуального окружения: source venvAzhdar_BTC/bin/activate
+
+Нобходимые библиотеки для работы с ботом: pip3 install requests wheel telebot pytelegrambotapi
+

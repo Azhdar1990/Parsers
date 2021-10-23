@@ -1,0 +1,122 @@
+﻿[
+    {
+        "title": "CROSS HIKE MID GTX",
+        "category": "Пеший туризм",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/peshekhodnyy_turizm/33310/",
+        "price_base": 15490,
+        "price_discount": 10790,
+        "discount_percent": 30
+    },
+    {
+        "title": "XA WILD",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/35055/",
+        "price_base": 11490,
+        "price_discount": 7990,
+        "discount_percent": 30
+    },
+    {
+        "title": "XA WILD",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/4240/",
+        "price_base": 11490,
+        "price_discount": 7990,
+        "discount_percent": 30
+    },
+    {
+        "title": "SONIC 4 CONFIDENCE",
+        "category": "Бег по асфальту",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/beg_po_asfaltu/34547/",
+        "price_base": 10990,
+        "price_discount": 7690,
+        "discount_percent": 30
+    },
+    {
+        "title": "XA PRO 3D",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/34607/",
+        "price_base": 9990,
+        "price_discount": 6990,
+        "discount_percent": 30
+    },
+    {
+        "title": "SENSE FLOW 2",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/56477/",
+        "price_base": 9990,
+        "price_discount": 4990,
+        "discount_percent": 50
+    },
+    {
+        "title": "PREDICT MOD",
+        "category": "",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/beg_po_asfaltu/35089/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    },
+    {
+        "title": "WINGS SKY",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/56678/",
+        "price_base": 11490,
+        "price_discount": 7990,
+        "discount_percent": 30
+    },
+    {
+        "title": "PREDICT SOC",
+        "category": "Бег по асфальту",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/beg_po_asfaltu/15214/",
+        "price_base": 10990,
+        "price_discount": 7690,
+        "discount_percent": 30
+    },
+    {
+        "title": "XT-WINGS 2 ADV",
+        "category": "Городской стиль",
+        "link": "https://salomon.ru/catalog/zhenshchiny/kollektsii/kollektsiya_advanced/34577/",
+        "price_base": 10990,
+        "price_discount": 7690,
+        "discount_percent": 30
+    },
+    {
+        "title": "SPEEDCROSS SANDAL",
+        "category": "Отдых и восстановление",
+        "link": "https://salomon.ru/catalog/zhenshchiny/obuv/sandalii_i_akvashuz/71691/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    },
+    {
+        "title": "SPEEDCROSS SANDAL",
+        "category": "Отдых и восстановление",
+        "link": "https://salomon.ru/catalog/zhenshchiny/obuv/sandalii_i_akvashuz/5195/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    },
+    {
+        "title": "ALPHACROSS BLAST",
+        "category": "Трейлраннинг",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/treylranning/12689/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    },
+    {
+        "title": "TECH AMPHIB 4",
+        "category": "Водные виды спорта",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/sandalii_i_akvashuz/3792/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    },
+    {
+        "title": "TECH AMPHIB 4",
+        "category": "Водные виды спорта",
+        "link": "https://salomon.ru/catalog/muzhchiny/obuv/sandalii_i_akvashuz/3807/",
+        "price_base": 7990,
+        "price_discount": 5590,
+        "discount_percent": 30
+    }
+]
