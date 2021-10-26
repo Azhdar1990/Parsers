@@ -105,6 +105,6 @@ async def get_discount_sneakers(message: types.Message):
 
 
 def bot():
-    executor.start_polling(dp)
+    executor.start_polling(dp, skip_updates=True)
 
 bot()
