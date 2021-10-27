@@ -1,0 +1,19 @@
+Сдесь мы разделили наш бот на файлы.
+1_bot_init.py
+	Хранит в себе данные токена и диспетчера для работы нашего бота.
+
+2_ handlers.py
+	В него мы будем импортировать все наши handler-ы из другиз файлов.
+	Задача данного файла брать функции handler-ов из других файлов подставлять в качестве аргумента диспетчера - диспетчер указанный в файле bot-init.py 
+	Пример : client.register_handlers_client(dp)
+	Командой : executor.start_polling(dp, skip_updates=True) мы запускаем данного бота.
+
+3_client.py
+	Тут у нас handler отнощащийся к клиентской части например введя если пользователь ввел /start, что делать боту.
+	@dp.message_handler(commands=['start', 'help']) мы закоментировали так как он нам не понадобится.
+	Создали функцию register_handlers_client который в качестве аргумента принимает значение Dispatcher который мы передадим через файл handlers.py который импортирует из файла bot_init.py
+	Далее сюда мы добавляем метод register_handler диспетчера который в качестве аргумента принимает  функцию commands_start и команды.
+	То есть dp.register_message_handler(commands_start, commands=['start', 'help']) говорит что функия приняв значение /start или /help запустит функцию commands_start.
+	Схема такая Юсер ввел /start > dp-handlers.py- register_handlers_client(dp) >commands_start
+4_others.py
+	такая же тема как и с client.py единственное отличие в том что message_handler не имеет комманд поэтому в качестве аргумента передаем только функцию echo_send
