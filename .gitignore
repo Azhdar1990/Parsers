@@ -1,3 +1,5 @@
 **/cinemaplus.az
 *.mp4
 auth_data.*
+ids.*
+IDS.*
